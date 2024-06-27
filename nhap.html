@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teky Creative Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+body h2{
+    font-size: 40px;
+    padding-top: 40px; 
+    padding-bottom: 40px
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container1 .content{
+    padding-right: 30px;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: #086c17;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header nav ul li {
+    margin-right: 40px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about p {
+    text-align: center;
+}
+
+.course {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    flex: 1 1 300px;
+}
+
+.course-item:hover{
+    background-color: rgba(17, 173, 103, 0.413);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.course-item a{
+    color:rgba(8, 105, 60, 0.897);
+    text-decoration:none;
+}
+
+
+
+.teachers .teacher {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.teacher-item {
+    text-align: center;
+    flex: 1 1 300px;
+}
+
+.testimonials .testimonial {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.testimonial-item {
+    text-align: center;
+    flex: 1 1 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #048d464f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo img{
+    width: 120px; 
+    height: 60px
+}
+
+.footer .logo h3 {
+    margin-top: 10px;
+}
+
+.footer .footer-content{
+    width: 40%;
+}
+
+.footer .contact{
+    width: 40%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #030303;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #212d26;
+}
+
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/tekylogo.png" alt="Teky Logo" style = "width: 120px; height: 60px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#teachers">Teachers</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <h2>Giới thiệu - Trường học Công nghệ TEKY</h2>
+        <div class="container1">
+            <div class="content">
+                <ul>
+                    <li>Các bộ môn giảng dạy tại Teky gồm: Lập trình và phát triển ứng dụng, Robotics Engineering, Công nghệ 3D và MultiMedia. Chúng tôi tin rằng trẻ em Việt Nam có cơ hội phát triển mạnh mẽ trong một nền kinh tế số và cần được trang bị sẵn sàng để trở thành những doanh nhân công nghệ trong tương lai.</li>
+                </ul>
+                <ul>
+                    <li>Tháng 11/2016, Teky là đơn vị đầu tiên tại Việt Nam gặt hái được 5 huy chương bạc trong cuộc thi lập trình quốc tế WeCode – bộ môn lập trình Scratch cho độ tuổi 6-9.</li>
+                </ul>
+                <ul>
+                    <li>Tháng 3/2017, Teky là 1 trong 10 dự án Ảnh hưởng Xã hội trên toàn bộ khu vực Đông Nam Á và dự án duy nhất tại Việt Nam, theo bình chọn của Chính phủ Úc thông qua sàng lọc 2000 dự án khác.</li>
+                </ul>
+                <ul>
+                    <li>Tháng 6/2017, Teky là 1 trong 3 dự án được đánh giá cao nhất trong sự kiện Women NextGen Entrepreneur diễn ra tại Thuỵ sĩ.</li>
+                </ul>
+
+            </div>
+            <div class="image">
+                <img src="images/gioithieu.png" alt="Ảnh giới thiệu Teky">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="sumenh" class="section sumenh">
+        <div class="container2">
+            <div class="image">
+                <img src="images/sumenh.png" alt="Ảnh giới thiệu Teky" style = "width: 400px">
+            </div>
+            <div class="content1" style = "padding-left: 60px">
+                <h3 style = "font-size: 40px;"><span style = "color:rgb(53, 211, 158)">#</span>SỨ MỆNH</h3>
+                <p>Sứ mệnh của chúng tôi là cung cấp một môi trường đào tạo tư duy và kỹ năng máy tính bài bản, chuyên nghiệp, giúp cho trẻ em Việt Nam có khả năng dẫn đầu Cuộc Cách mạng Công nghiệp lần thứ IV và hình thành tốt hơn con đường sự nghiệp của một doanh nhân công nghệ tương lai.</p>
+                <br>
+                <p>Phổ biến kiến thức STEAM đến cộng đồng trẻ, nhằm giúp cải thiện tốt hơn chất lượng giáo dục ở Việt Nam và các nước khu vực Đông Nam Á
+                    Cung cấp và hỗ trợ cải tiến hệ thống cơ sở vật chất đào tạo ở Việt Nam để bắt kịp với thế giới
+                    Truyền cảm hứng và khơi dậy cho trẻ em ứng dụng đam mê, sáng tạo của mình vào cuộc sống thực tiễn</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="courses" class="section courses">
+        <div class="container">
+            <h2 style = "padding-top: 40px; padding-bottom: 40px">BỘ MÔN</h2>
+            <div class="course">
+                <div class="course-item">
+                    <h3>Lập trình & Phát triển ứng dụng</h3>
+                    <p>Learn HTML, CSS, JavaScript, Python, ...</p>
+                    <a href="#">Xem thêm tại đây</a>
+                </div>
+                <div class="course-item">
+                    <h3>Robot & Điện tử tự động</h3>
+                    <p>Mindstorms, Wedo, Scartch, ...</p>
+                    <a href="#">Xem thêm tại đây</a>
+                </div>
+                <div class="course-item">
+                    <h3>3D & Truyền thông đa phương tiện</h3>
+                    <p>3D Pen Microbit, Photoshop, ...</p>
+                    <a href="#">Xem thêm tại đây</a>
+                </div>
+            </div>
+        </div>
+
+    </section class = "section giaiphap">    
+        <div class="container">
+            <h2 style = "text-align: center;">GIẢI PHÁP EDTECH</h2>
+            <img src="images/giaiphap.png" alt="" class = "image" style = "width: 100%">
+        </div>
+
+    <section>
+
+    </section>
+
+    <section id="teachers" class="section teachers">
+        <div class="container">
+            <h2>ĐỘI NGŨ GIÁO VIÊN</h2>
+            <div class="teacher">
+                <div class="teacher-item">
+                    <img src="images/teacher1.jpg" alt="Teacher 1" style = "width: 90%; height: 400px">
+                    <h3>Nguyễn Thu Hà</h3>
+                    <p>Gia sư trực tuyến các bộ môn Lập trình, Robotic và 3D & Truyền thông đa phương tiện</p>
+                </div>
+                <div class="teacher-item">
+                    <img src="images/teacher2.jpg" alt="Teacher 2" style = "width: 90%; height: 400px">
+                    <h3>Nguyễn Thị Thu Hương</h3>
+                    <p>Giảng dạy câu lạc bộ lập trình, robotics</p>
+                </div>
+                <div class="teacher-item">
+                    <img src="images/teacher3.jpg" alt="Teacher 3" style = "width: 90%; height: 400px">
+                    <h3>Lê Quang Hưng</h3>
+                    <p>Kỹ sư điện tử tự động.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <img src="images/tekylogo.png" alt="Teky Logo">
+                    <p>TEKY là Học viện sáng tạo công nghệ với chương trình giảng dạy <b>STEAM (Science – Technology – Engineering – Art – Mathematics)</b> theo chuẩn Mỹ đầu tiên tại Việt Nam dành cho trẻ em từ 4 đến 18 tuổi.</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact">
+                <h3>Thông tin liên hệ</h3>
+                <strong>Tổng đài:</strong> 1900 3168
+                <strong>Hotline lãnh đạo:</strong> 033 459 2016
+                <strong>Email:</strong> <a href="mailto:support@teky.edu.vn">support@teky.edu.vn</a>
+                <h3>Trụ sở chính</h3>
+                <ol>
+                <li><strong>Miền Bắc:</strong> Tầng 5, Tòa nhà Mac Plaza, Phường Mộ Lao, Quận Hà Đông, Hà Nội</li>
+                <li><strong>Miền Nam:</strong> 152 Đ. Điện Biên Phủ, Phường 25, Bình Thạnh, Thành phố Hồ Chí Minh</li>
+                </ol>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
